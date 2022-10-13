@@ -1,0 +1,25 @@
+@font-face {
+    font-family: cpmono-bold;
+    src: url(./assets/typography/cpmonov07-cdnfonts/CPMono_v07_Bold.ttf)
+}
+@font-face {
+    font-family: cpmono-plain;
+    src: url(./assets/typography/cpmonov07-cdnfonts/CPMono_v07_Plain.ttf);
+}
+@font-face {
+    font-family: cpmono-light;
+    src: url(./assets/typography/cpmonov07-cdnfonts/CPMono_v07_Light.ttf);
+}
+.logo {
+    font-family: cpmono-bold;
+}
+
+.clickable {
+    background-color: #76c0e3;
+    border: none;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.clickable:hover {
+   background-color: #0789c7;
+}
